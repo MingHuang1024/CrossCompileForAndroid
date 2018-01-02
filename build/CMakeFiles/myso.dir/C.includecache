@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hm/JDK/jdk1.8.0_151/include/jni.h
+stdio.h
+-
+stdarg.h
+-
+jni_md.h
+/home/hm/JDK/jdk1.8.0_151/include/jni_md.h
+
+/home/hm/JDK/jdk1.8.0_151/include/linux/jni_md.h
+
+/home/hm/cmake_sample/cross_for_android/c/CTest.c
+jni.h
+-
+android/log.h
+-
+

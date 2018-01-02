@@ -1,0 +1,3 @@
+/home/hm/cmake_sample/cross_for_android/build/CMakeFiles/edit_cache.dir
+/home/hm/cmake_sample/cross_for_android/build/CMakeFiles/rebuild_cache.dir
+/home/hm/cmake_sample/cross_for_android/build/CMakeFiles/myso.dir

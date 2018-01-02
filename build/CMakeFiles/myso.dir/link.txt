@@ -1,0 +1,1 @@
+/tmp/ndk-hm/arm-linux-androideabi/bin/clang  -fPIC  -std=gnu99 -fPIE  -shared -Wl,-soname,libmyso.so -o /home/hm/cmake_sample/cross_for_android/c/lib/libmyso.so CMakeFiles/myso.dir/CTest.c.o -llog 

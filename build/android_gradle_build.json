@@ -1,0 +1,36 @@
+
+{
+	"buildFiles" : [ "/home/hm/cmake_sample/cross_for_android/c/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/home/hm/android_sdk/cmake/3.6.4111459/bin/cmake --build /home/hm/cmake_sample/cross_for_android/build --target clean"
+	],
+	"libraries" : 
+	{
+		"myso" : 
+		{
+			"artifactName" : "myso",
+			"buildCommand" : "/home/hm/android_sdk/cmake/3.6.4111459/bin/cmake --build /home/hm/cmake_sample/cross_for_android/build --target myso",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -Dmyso_EXPORTS -I/home/hm/JDK/jdk1.8.0_151/include -I/home/hm/JDK/jdk1.8.0_151/include/linux   -std=gnu99 -fPIE -fPIC   --sysroot=/tmp/ndk-hm/arm-linux-androideabi/sysroot    -c ",
+					"src" : "/home/hm/cmake_sample/cross_for_android/c/CTest.c",
+					"workingDirectory" : "/home/hm/cmake_sample/cross_for_android/build"
+				}
+			],
+			"output" : "/home/hm/cmake_sample/cross_for_android/c/lib/libmyso.so",
+			"toolchain" : "10995256536283631308"
+		}
+	},
+	"toolchains" : 
+	{
+		"10995256536283631308" : 
+		{
+			"cCompilerExecutable" : "/tmp/ndk-hm/arm-linux-androideabi/bin/clang",
+			"cppCompilerExecutable" : "/tmp/ndk-hm/arm-linux-androideabi/bin/clang++"
+		}
+	}
+}
